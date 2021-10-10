@@ -1,0 +1,78 @@
+
+The bash Shell is the program that understands the commands - it is also called the python terminal
+Most linux distributions use the Bash Shell
+Tcsh Shell
+terminal emulator is the terminal that will be used for the class
+Ctrl + A go to the start of the command line
+Ctrl + E go the the end of the line
+up and down goes through the commands you already made
+Ctrl + shift + V how to paste 
+Shift + C is how to copy 
+Terminal emulator runs through file, edit' view' search, terminal, and help 
+shell prompt- it allows you to type a command. if you write a command it will go away 
+If the prompt starts with a pound sign it means you are the super user
+If the prompt starts with a dollar sign you are a secondary user 
+Root allows you to do anything. Never use a root user 
+The damage that root does is unrecoverable
+Command History- saves a list of all the commands you type
+Basic Terminology- package, libary, Dependency, Repository
+cars.exe is a package that contains libaries, text, codes, binaries
+Dependency- a piece of software that depends on another software to run
+FTP- stores files and allows any user to acess them - Repositories 
+Ubuntu has 4 main repositories nothing downloade from here contains a virus it is expected to work as normal
+Libary- reusable code that can be used 
+Linux runs off of Debian
+The file with an ext. of .deb is a debian extension
+Dpkg is a low level tool. is a main tool. It works in the back end and shouldnt be used by the user.
+Wrapper tools go look for the software and the dependcies 
+APT- Advanced Package Tool is used for installing tools 
+apt- can do installation resuming 
+cat/etc/apt/sources.list- contains the least amount of software available
+sudo- allows you to gain administartor power 
+apt- is used to manage software
+update- is used to download package information from all configured sources 
+;- terminates every command with a ;
+upgrade- is the package that installs the new version
+how to install software- sudo + apt + install + package
+In the terminal you can remove programs and add programs in the same command line
+
+PPA's- allows you to install software in the program
+How to add PPA- sudo add-apt-repository 
+
+You can install a .deb file with gdebi 
+Gdebi- is the simple tool to install deb files.
+
+Snapcraft- is the framework used to build your own snaps
+You can have multiple snaps run the same command line
+
+Flatpak- is a next generation technology for packaging 
+
+Synaptic it allows you the entire power of the command line 
+
+#The linux directory Structure
+Filesystem Hierarchy Standard (FHS)
+directory = folder 
+Linux always have a single file system tree, regaurdless of how many drives or storage devices are attached to the computer
+
+/ = is the root of the file system. There are a bunch of file managers for linux.
+Present working directory or current working directory is where you are working from the folder you are in.
+home/jhon/downloads = home/ parent/ child directories 
+absolute path to the file that is open open in the file path. Also called pathname. It makes it easy to navigate the file system. 
+
+/Home = go to the home directory and go to your User home directory is 2 different folders.
+
+#Commands to move around the file system
+The cd command is used to change directory
+The pwd command is used to display the current working directory
+The Is command is used for displaying all the files inside a given directory
+A Relative Path specifies the pathname starting from the current directory. Always start with a subdirectory. 
+Relative path is useful when you are moving files that are sub folders of a main folder.
+
+#The CD Command 
+Changes the current working directory. In other words is moving you around.
+The current working directory is a single dot.
+
+#How to use the cd command?
+cd.. is going take you 1 step back in the directory. 
+If you type CD it always take you to the user home. 
+Linux stores alot of valubles that changes constantly.
